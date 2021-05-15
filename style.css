@@ -1,0 +1,151 @@
+
+header{
+  background: white;  
+  }
+
+#img-caption{
+  width: 400px;
+  margin: 0 auto;
+  line-height: 25px; 
+  color: grey;
+  font-family: monospace;
+  text-align: center;
+  postion: absolute;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  } 
+
+#main{
+font-family: 'Raleway','Microsoft JhengHei';
+
+}
+nav {
+  margin: 0;
+  background: white;
+  padding: 0;
+}  
+  .menuItems{
+    list-style: none;
+    display: flex;
+}
+li {
+  background-color: white;
+}
+a {
+  display: block;
+  padding: 20px;
+  color: grey;
+  font-size: 18px;
+  
+}
+li a:hover {
+      color: black;
+}    
+    li:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+}
+#img-div{
+  margin:1%;
+  position: relative;
+}  
+.box{
+  background: white;
+  justify-content: right;
+  opacity: 60%;
+  max-width: 300px;  
+  } 
+#title{
+  padding: 12%;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 100px;
+  margin: -10px;
+}   
+
+#top-left1{
+  padding: 12%;
+  color: black;
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  font-size: 50px;
+  margin: -10px;
+  opacity: 70%;
+  }
+
+#tribute-info{
+  padding: 2%;
+  color: black;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  font-size: 28px;
+  opacity: 70%;
+  }
+
+.fixed-bg {
+  min-height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  line-height: 1.5;
+}.bg-1 {
+  background-image: url("https://www.pablo-ruiz-picasso.net/images/works/11.jpg");
+}
+.bg-1-1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Pablo_Picasso%2C_1902%2C_Le_bock_%28Portrait_de_Jaime_Sabartes%29%2C_82_x_66_cm.jpg/1200px-Pablo_Picasso%2C_1902%2C_Le_bock_%28Portrait_de_Jaime_Sabartes%29%2C_82_x_66_cm.jpg");
+}
+.bg-2{
+  background-image: url("https://www.pablo-ruiz-picasso.net/images/works/3934.jpg");
+}
+.bg-2-2{
+  background-image: url("https://www.pablo-ruiz-picasso.net/images/works/56.jpg");
+}
+.bg-3{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Pablo_Picasso%2C_1908%2C_Paysage_aux_deux_figures_%28Landscape_with_Two_Figures%29%2C_oil_on_canvas%2C_60_x_73_cm%2C_Musée_Picasso%2C_Paris.jpg/585px-Pablo_Picasso%2C_1908%2C_Paysage_aux_deux_figures_%28Landscape_with_Two_Figures%29%2C_oil_on_canvas%2C_60_x_73_cm%2C_Musée_Picasso%2C_Paris.jpg");
+}
+.bg-3-3{
+  background-image: url("https://www.pablo-ruiz-picasso.net/images/works/102.jpg");
+}
+.bg-4{
+  background-image: url("https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/121b2142-52bd-4628-8486-1dbaa50860b6/fx1_lrg.jpg");
+}
+.bg-4-4{
+  background-image: url("https://www.tate.org.uk/art/images/work/T/T05/T05010_10.jpg");
+}
+.bg-5{
+  background-image: url("https://www.pablo-ruiz-picasso.net/images/works/1228.jpg");
+}
+.bg-5-5{
+  background-image: url("https://i.pinimg.com/originals/42/35/ff/4235ff3307e3fbc456f4212acdb9ea68.jpg");
+}
+h1{
+  color: black;
+  font-size: 2.5em;
+  line-height: 0;  
+}
+.text-box{
+  background: white;
+  justify-content: center;
+  width: 500px;
+  margin: 100px;
+  max-width: 300px;
+  padding: 20px;
+  
+ }
+.content1{
+ max-width: 100%;
+  }
